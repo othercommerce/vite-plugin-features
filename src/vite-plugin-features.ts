@@ -7,8 +7,8 @@ export type Options = {
 }
 
 const defaults: Options = {
-  local: 'resources/js/types/generated',
-  vendor: 'vendor/procommerce/framework/packages/types/generated',
+  local: 'resources/js',
+  vendor: 'vendor/procommerce/framework/packages',
 };
 
 export default function features(props?: Partial<Options>): Plugin {

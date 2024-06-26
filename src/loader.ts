@@ -34,7 +34,7 @@ function buildFeaturesModule(features: FeaturesList) {
 }
 
 function buildFeaturesDeclarations(target: string, features: FeaturesList) {
-  let directory = path.resolve(target, 'Types');
+  let directory = path.resolve(target, 'types', 'generated');
   let declarations = path.resolve(directory, 'features.d.ts');
   let lines = [];
 
