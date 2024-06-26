@@ -2,7 +2,7 @@
     "name": "@othercommerce/vite-plugin-features",
     "description": "This plugin generates a virtual module which provides a list of all configured OtherCommerce features and their availability states.",
     "keywords": ["othercommerce", "vite"],
-    "version": "0.1.0",
+    "version": "0.1.1",
     "license": "MIT",
     "homepage": "https://github.com/othercommerce/vite-plugin-features",
     "repository": {
