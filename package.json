@@ -1,0 +1,42 @@
+{
+    "name": "@othercommerce/vite-plugin-features",
+    "description": "This plugin generates a virtual module which provides a list of all configured OtherCommerce features and their availability states.",
+    "keywords": ["othercommerce", "vite"],
+    "version": "0.1.0",
+    "license": "MIT",
+    "homepage": "https://github.com/othercommerce/vite-plugin-features",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/othercommerce/vite-plugin-features.git"
+    },
+    "bugs": {
+        "url": "https://github.com/othercommerce/vite-plugin-features/issues",
+        "email": "rafal.krawiec@promoznawcy.pl"
+    },
+    "author": {
+        "name": "Rafał Krawiec",
+        "email": "rafal.krawiec@promoznawcy.pl"
+    },
+    "type": "module",
+    "module": "dist/vite-plugin-features.js",
+    "main": "dist/vite-plugin-features.cjs",
+    "types": "dist/vite-plugin-features.d.ts",
+    "files": ["dist"],
+    "exports": {
+        ".": {
+            "import": "./dist/vite-plugin-features.js",
+            "types": "./dist/vite-plugin-features.d.ts",
+            "require": "./dist/vite-plugin-features.cjs"
+        }
+    },
+    "scripts": {
+        "dev": "vite build -m development --watch",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "@types/node": "^20.14.7",
+        "typescript": "^5.5.2",
+        "vite": "^5.3.1",
+        "vite-plugin-dts": "^3.9.1"
+    }
+}
