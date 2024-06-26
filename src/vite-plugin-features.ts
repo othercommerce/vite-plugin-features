@@ -11,7 +11,7 @@ const defaults: Options = {
   vendor: 'vendor/procommerce/framework/packages/storefront/src',
 };
 
-export default function storefront(props?: Partial<Options>): Plugin {
+export default function features(props?: Partial<Options>): Plugin {
   let options: Options = { ...defaults, ...props };
   let config: ResolvedConfig;
 
